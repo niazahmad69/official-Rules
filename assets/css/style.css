@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Fonts --- END */
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background: #222222;
+    font-size: 10px;
+    font-weight: 600;
+    color: #f37778;
+}
+.header #header-li{
+    color: white;
+}
+.header .nav-pos1{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 70px;
+}
+.header .nav-pos2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: middle;
+    height: 70px;
+}
+.sec2-img{
+    margin-top: -20px;
+}
+.sec2-img .bgImg-Rodeo{
+    background-image: url(../media/rodeo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ada2a2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Jackson, Wyoming Page head background image */
+.sec2-img .bgImg-Rodeo-esc{
+    background-image: url(../media/JacksonHeader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ada2a2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* NYC, Page head background image */
+.sec2-img .bgImg-Rodeo-exp{
+    background-image: url(../media/Nyc-Header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ada2a2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sec2-img .sec2-caption{
+    font-size: 92px;
+    font-weight: 800;
+    width: 889px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: white;
+}
+.sec2-img .sec2-btn{
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+.sec2-img .sec2-btn button{
+    background: #f37778;
+    border: 1px solid #f37778;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 149px;
+    height: 37px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.sec3-desc{
+    color:  #393839;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec3-desc .description #desc-heading{
+    font-size: 26px;
+    font-weight: 800;
+}
+.sec3-desc .description #desc-para{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sec4-highlights .sec4-bgImg{
+    background-image: url(../media/bc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec4-highlights .sec4-bgImg #highlights-heading{
+    color: #f37778;
+    font-size: 18px;
+    font-weight: 800;
+}
+.sec4-highlights .sec4-bgImg #highlights-para{
+    color: white;
+    font-weight: 600;
+}
+.customLayout{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.emptyDiv{
+    width: 100%;
+    height:150px;
+}
+.footer .footer-heading{
+    color: #58595b;
+}
+.footer .footer-bottom{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.footer #footer-heading-top{
+    font-size: 19px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.footer #footer-heading-center{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer #footer-heading-bottom{
+    font-size: 12px;
+    font-weight: 800;
+}
+.footer-bottom-cont{
+    background: #939598;
+}
+.footer #footer-bottom-bottom{
+    font-size: 11px;
+    font-weight: 400;
+}
+/* ===================
+Lifetime css starts
+=================== */
+.background1{
+    background-image: url(../media/Header.jpg);
+    margin-top: -20px;
+}
+.headercontainer{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.img-label{
+    font-size: 150px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 0.9;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.empty-div{
+    width: 100%;
+    height: 162px;
+}
+.icon-right{
+    margin-bottom: 100px;
+}
+.background-pink{
+    background-color: #f37778;
+}
+.custom-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: 10px;
+    color: #fff ;
+}
+.pink-text{
+    font-size: 16px;
+    width: 75%;
+}
+.pink-sub-text{
+    color: #54585a;
+    font-weight: 700;
+    font-size: 16px;
+}
+.pink-heading{
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.prizeimgCon{
+    display: flex;
+}
+.prizeImg1{
+    margin-right: 25px;
+}
+.prizeImg2{
+    margin-right: 25px;
+}
+.textCon h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f37778;
+    margin-bottom: 16px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.imageSection{
+    margin-top: 20px;
+}
+.textWin{
+    color: #f37778;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.textWin h1{
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.textWin h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.background-black{
+    background-image: url(../../assets/media/bc.jpg);
+    margin-top: 24px;
+}
+.paragraph p{
+    color: #d8d8d8;
+    font-size: 15px;
+}
+.red-button{
+    background-color: #f37778 !important;
+    border: none !important;
+    width: 150px !important;
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.paragraph-1{
+    color: #d8d8d8;
+    font-size: 15px;
+}
+.light-button{
+    background-color: #00aeef !important;
+    border: none !important;
+    width: 150px !important;
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 15px !important;
+}
+.winners{
+    font-size: 18px;
+}

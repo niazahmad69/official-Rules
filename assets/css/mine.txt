@@ -1,0 +1,41 @@
+ <!--section2-->
+
+                <div class="container">
+
+                <div class="row">
+                    <div class="container">
+
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="container">
+                                <div class="">
+                                    <div class="row bg3">
+                                        <div class="col-sm-6 grand">
+                                         <div class="container">
+                                            <h4>Grand Prize</h4>
+                                            <h6 class="epic">AN EPIC EXPERIENCE</h6>
+                                            <p class="chose">Choose from one of three 4-day/3-night luxury vacation experiences from one of the world’s leading luxury lifestyle concierge management groups.</p>
+                                            <h6>CHOOSE FROM 3 EPIC DESTINATIONS.</h6>
+                                            <h6 class="go">Go Glam in Beverly Hills</h6>
+                                              <h6 class="experience">Experience the Bright Light of New York City</h6>
+                                             <h6 class="escape"> Escape to The Tetons in Jackson Hole</h6>
+                                         </div>
+                                        </div>
+                                        <div class="col-sm-4 week">
+                                            <h4>Weekly Giveaway</h4>
+                                            <h6 class="occulus">OCULUS® GO</h6>
+                                            <p class="be">Be one of five lucky winners each week to see the future with an 64GB Oculus Go Standalone Virtual Reality Headset.</p>
+                                        </div>
+                                        <div class="col-sm-2">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        </div>
+                </div>
+                </div>
